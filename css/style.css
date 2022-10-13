@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat, sans-serif';
+  background: linear-gradient(68.7deg, rgb(235, 217, 221) 8%, rgb(216, 174, 211) 55.4%, rgb(145, 130, 196) 91.1%);
+  padding: 2% 8%;
+}
+
+h1{
+  text-align: center;
+  color: #2f3c4f;
+}
+
+ul {
+  list-style: none;
+  padding-left: 30px;
+}
+
+li{
+padding: 3% 6%;
+font-weight: 500;
+font-size: 16px;
+opacity: 0.7;
+}
+
+#drink-menu {
+  background-color: #ffff;
+  width: 400px;
+  max-width: 400px;
+  border-radius: 30px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+
+.drink-image {
+  width: 400px;
+  border-radius: 24px 24px 0 0;
+}
+
+.price-milk{
+  position: relative;
+  left: 190px;
+}
+
+.price-cocktail {
+  position: relative;
+  left: 205px;
+}
+
+.price-juice {
+  position: relative;
+  left: 227px;
+}
+
+.price-wine{
+  position: relative;
+  left: 225px;
+      }
+
+.price-soda {
+  position: relative;
+  left: 228px;
+}
+
+button {
+  border-radius: 25px;
+  margin: 20px auto;
+  display: block;
+  background-color: #2f3c4f;
+  border: 1px solid #2f3c4f;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+button:hover {
+  color: #2f3c4f;
+  background: #ffffff;
+  cursor: pointer;
+}
